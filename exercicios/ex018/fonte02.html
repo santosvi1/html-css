@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Externas2</title>
+    <style>
+        @font-face {
+            font-family: naruto;
+            src: url(C:/Users/joao_/Downloads/njnaruto.ttf);
+            font-style: normal;
+            font-weight: normal;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            
+        }
+        .gradiente{
+            background: linear-gradient(90deg,rgb(22, 99, 112),#131005, rgb(107, 26, 26));
+            animation: colors 15s ease infinite;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-size: 300% 300%;
+            
+            
+            
+        }
+
+            @keyframes colors {
+                0%{
+                    background-position: 0% 50%;
+                }
+                50%{
+                    background-position: 100% 50%;
+                }
+                100%{
+                    background-position: 0% 50%;
+                }   
+
+            
+        }
+        
+    
+    </style>
+</head>
+<body>
+    
+    <h1 class="gradiente"><img src="gleds2.png.png" alt="logo-empresa"></h1>
+    
+    
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt doloremque reprehenderit, exercitationem, sint quia officia incidunt, animi cum nihil dolore dicta. Fugiat, facere dolorem repellat ea esse vel distinctio numquam!</p>
+    
+</body>
+</html>
