@@ -3,4 +3,4 @@
 
 Estou aprendendo a criar sites e agora vou gerenciar repositórios!
 
-<a href="https//santosvi1.io/html-css/exercicios/ex021/desafio.html">
+<a href="https://santosvi1.github.io/html-css/exercicios/ex021/desafio.html">
